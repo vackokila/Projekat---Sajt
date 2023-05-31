@@ -1,0 +1,180 @@
+body{
+	padding:0px;
+	margin:0px;
+	background-color:#A8B6FF;
+	overflow-y: scroll; 
+overflow-x: hidden; 
+}
+
+.stranica{
+	height:100vh;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.gornjideo{
+	background:linear-gradient(#959DF5, #A39DF5,#A39DF5,#959DF5);
+	height:60px;
+	width: 100%;
+	box-sizing: border-box;	
+}
+
+#logo1{
+	height:58px;
+	width:58px;
+}
+#logo2{	
+
+	margin:-50px 10px 400px 10px;
+	height:48px;
+	width:48px;
+}
+
+#meni{
+	
+	border:0px solid #A8B6FF;
+	height:34px;
+	background:#959DF5;
+	
+}
+
+#navigacija{
+	
+	border: 0px solid #AB00FF;
+	flex-grow:1;
+	text-align:center;
+	height:58pt;
+	border:1px solid black;
+}
+
+#glavnimeni{
+	display:flex;
+	height: 33px;	
+	float:center;
+	width:100%;
+	
+}
+
+#glavnimeni a{
+	border:1px solid #A8B6FF;
+	flex-grow:1;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	padding: 0px 0px -10px 0px;
+	color:white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:calibri;
+	height:32px;
+	margin:0px 0px 0px 0px;
+	justify-content: space-between;
+	
+}
+
+#glavnimeni a:hover{
+	background:linear-gradient(#959DF5,#959DF5,#959DF5,#A39DF5,#A39DF5,#959DF5,#959DF5,#959DF5);
+	color:white;
+	height:24pt;
+	width:150px;
+	
+}
+
+.nazivstr{
+	
+	border:0px solid black;
+	width:100px;
+	height:55px;
+	text-align:center;
+	float: center;
+	margin:auto;
+	
+}
+
+h1{
+
+	margin:0px 0px 0px 0px;
+	font-size:40px;
+	color:white;
+}
+
+.nazivstr p{
+	margin:-10px 0px 0px 0px;
+	color:white;
+	
+}
+
+
+.stranica	
+{
+	height: 475px;
+	margin:auto;	
+}
+
+.oblik{
+	border:0px solid #8B41FF;
+	text-align:center;
+	margin: 7px auto;
+	width:600pt;
+	height:450px;
+	background:#A39DF5;
+	border-radius:10px;
+}
+
+.Slika{
+	background-color:#959DF5;
+	border:0px solid #8B41FF;
+	float:left;
+	height:425px;
+	width:300px;
+	text-align:center;
+	margin:10px;
+	background-size:cover;
+	border-radius:10px;
+}
+.Textt{
+	background-color:#959DF5;
+	border:0px solid #8B41FF;
+	float:right;
+	height:425px;
+	width:425px;
+	text-align:center;
+	margin:10px;
+	color:white;
+	text-decoration:none;
+	border-radius:10px;
+	font-family:calibri;
+}
+
+.Slika img{
+	width:300px;
+	height:425px;
+	border-radius:10px;
+	
+}
+
+.Textt a {
+	flex-grow:1;
+	text-align:center;
+	display:block;
+	text-decoration:none;
+	color: white;
+
+}
+
+.Textt a:hover{
+	
+	color:#A8B6FF;
+
+}
+
+.crta{
+	text-align:center;
+	color:#A8B6FF;
+	font-size:16px;
+}
+
+.naslov{
+	text-align:center;
+	border-bottom:1px solid #A39DF5;
+}

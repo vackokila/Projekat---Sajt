@@ -1,0 +1,493 @@
+body{
+	padding:0px;
+	margin:0px;
+	background-color:#A8B6FF;
+	overflow-y: scroll; 
+overflow-x: hidden; 
+}
+
+.stranica{
+	border:0px solid black;
+	height:100vh;
+	width:100%;
+	box-sizing: border-box;
+}
+
+.gornjideo{
+	background:linear-gradient(#959DF5, #A39DF5,#A39DF5,#959DF5);
+	height:60px;
+	width: 100%;
+	box-sizing: border-box;	
+}
+
+#logo1{
+	height:58px;
+	width:58px;
+}
+#logo2{	
+
+	margin:-50px 10px 400px 10px;
+	height:48px;
+	width:48px;
+}
+
+
+
+
+#meni{
+	
+	border:0px solid #A8B6FF;
+	height:35px;
+	background:#959DF5;
+	
+}
+
+#navigacija{
+	
+	border: 0px solid #AB00FF;
+	flex-grow:1;
+	text-align:center;
+	height:58pt;
+	border:1px solid black;
+}
+
+#glavnimeni{
+	display:flex;
+	height: 33px;	
+	float:center;
+	width:100%;
+	
+}
+
+#glavnimeni a{
+	border:1px solid #A8B6FF;
+	flex-grow:1;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	padding: 0px 0px -10px 0px;
+	color:white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:calibri;
+	height:32px;
+	margin:0px 0px 0px 0px;
+	justify-content: space-between;
+	
+}
+
+#glavnimeni a:hover{
+	background:linear-gradient(#959DF5,#959DF5,#959DF5,#A39DF5,#A39DF5,#959DF5,#959DF5,#959DF5);
+	color:white;
+	height:24pt;
+	width:150px;
+	
+}
+
+.nazivstr{
+	
+	border:0px solid black;
+	width:100px;
+	height:55px;
+	text-align:center;
+	float: center;
+	margin:auto;
+	
+}
+
+h1{
+
+	margin:0px 0px 0px 0px;
+	font-size:40px;
+	color:white;
+}
+
+.nazivstr p{
+	margin:-10px 0px 0px 0px;
+	color:white;
+	
+}
+
+
+
+.odabiranje{
+	margin:-2px 0px 0px 0px;
+	border:0px solid #A8B6FF;
+	height:20px;
+	background:#959DF5;
+	color:white;
+	width:100%;
+
+}
+
+
+
+
+
+
+.deozaprodaju{
+	
+	border:0px solid black;
+	margin:auto;	
+	width:100%;
+	text-align:justify;
+	color:white;
+	font-family:calibri;
+	margin-top:40px;
+	height:100%;
+	float:center;
+	font-family:15px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+.pro{
+font-family:calibri;
+color:white;
+background-color:#959DF5;
+border:0px solid #8B41FF;
+float: left;
+width:317px;
+margin:10px 10px 10px 10px;
+border-radius:10px;
+text-align:center;
+height:650px;
+
+
+}
+
+.celafoto{
+	border:0px solid black;
+	width:313px;
+	float: left;
+}
+.naslov{
+text-align:center;	
+}
+
+.foto img{
+	border:0px solid black;
+	width:200px;
+	height:200px;
+	margin-top: 0px;
+	text-align:center;
+	float:center;
+}
+
+.kupi {
+  border:0px solid black;
+  width: 300px;
+  height:100px;
+  float:center;
+  margin:0px 0px 0px 8px;
+  border-radius:10px;
+  text-align:center;
+}
+
+
+
+.kupo{
+	border:0px solid black;
+	height:40px;
+	width:300px;
+	border-radius:10px;
+	background-color:#A8B6FF;
+	color:white;
+	font-size: 13px;
+	font-family:calibri;
+	font-weight:bold;
+	float:left;
+	margin:10px 0px 0px 0px;
+}
+
+.kupo:hover{
+	background:linear-gradient(#959DF5,#959DF5,#959DF5,#A39DF5,#A39DF5,#959DF5,#959DF5,#959DF5);
+	height:40px;
+	border-radius:10px;
+}
+
+
+
+
+.tekst{
+	
+	text-align:justify;
+
+}
+
+.cena{
+	border:0px solid black;
+	height:39px;
+	width:300px;
+	border-radius:10px;
+	background:#A8B6FF;
+	float:center;
+    
+}
+
+h3{
+	padding:8px;
+	font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+.pozadina{
+	width:1346px;
+	height:80vh;
+
+	
+}
+
+.kant{
+	
+	width:350px;
+	height:470px;
+	float:right;
+	margin:10px 100px 10px 10px;
+	background:#959DF5;
+	border-radius:10px;
+	
+	
+}
+
+.proizvod{
+
+	width:750px;
+	height:470px;
+	float:left;
+	margin:10px 0px 0px 100px;
+	background:#959DF5;
+	border-radius:10px;
+
+	
+}
+
+.korpa{
+	border:0px solid black;
+	text-align:center;
+	color:white;
+	height:50px;
+
+}
+
+
+
+
+.narudzbina{
+	color:white;
+	font-size:16px;
+	text-align:center;
+	border-bottom:1px solid #A8B6FF;
+	height:40px;
+}
+
+input[type="odabir"] {
+  border: 1px solid #A39DF5;
+  border-radius: 20px;
+  font-size: 15px;
+  color:#A8B6FF;
+  background-color:white;
+  outline: 1px solid #959DF5;
+  width:300px;
+  height:20px;
+  text-align:center;
+  float:center;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  color:white;
+}
+
+.kupe{
+  border:0px solid black;
+  width: 350px;
+  border-radius: 5px;
+  height:30px;
+  margin:0px 0px 0px 0px;
+  text-align:center;
+  display:fixed;
+}
+
+
+
+.kupa{
+	margin:20px 0px 20px 0px;
+	border:0px solid black;
+	height:20px;
+	width:346px;
+	text-align:center;
+	border-radius:10px;
+	background-color:#A8B6FF;
+	color:white;
+	font-size: 15px;
+	font-family:calibri;
+	font-weight:bold;
+	margin:8px 0px 0px 0px;
+}
+
+.kupa:hover{
+	background:#A39DF5;
+	height:20px;
+	border-radius:10px;
+}
+
+.kupiti{
+	
+	overflow:auto;
+	border:0px solid black;
+	width:750px;
+	height:350px;
+	background:#959DF5;
+	border-radius:10px;
+
+	
+}
+
+
+
+
+
+
+
+.kupiti-proizvod {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #A8B6FF;
+  padding-bottom: 10px;
+}
+
+
+
+.kupiti-proizvod img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.kupiti-proizvod-naslov {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 10px;
+  color:white;	
+}
+
+.kupiti-proizvod-cena {
+
+  font-weight: bold;
+  color:white;
+
+}
+
+.brojacc{
+	display:none;
+	
+}
+
+
+
+#trazi{
+	display:flex;
+	height: 20px;	
+	float:center;
+	width:100%;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+
+#trazi a{
+	border:1px solid #A8B6FF;
+	flex-grow:1;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	color:white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:calibri;
+	height:20px;
+    width:150px;
+	
+}
+
+#trazi a:hover{
+	background:linear-gradient(#959DF5,#959DF5,#959DF5,#A39DF5,#A39DF5,#959DF5,#959DF5,#959DF5);
+	color:white;
+	height:15pt;
+	width:200px;
+	
+}
+
+
+
+
+
+ul {
+	margin: 0;
+	padding: 0;
+    display:flex;
+	height: 33px;	
+	float:center;
+	width:100%;
+	height: 20px;	
+	background-color:#959DF5;
+	
+
+}
+
+
+li {
+	position: relative;
+  	border:1px solid #A8B6FF;
+	flex-grow:1;
+	display:flex;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:calibri;
+	height:20px;
+	background-color:#959DF5;
+
+}
+
+li > ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+background-color:#A8B6FF;
+  border:0px solid #ccc;
+  flex-grow:1;
+  background-color:#959DF5;
+
+  
+}
+
+li:hover > ul {
+  display: block;
+  	background:linear-gradient(#959DF5,#959DF5,#959DF5,#A39DF5,#A39DF5,#959DF5,#959DF5,#959DF5);
+	color:white;
+	height:50px;
+	width:100%;
+}
+

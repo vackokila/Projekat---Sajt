@@ -1,0 +1,147 @@
+body{
+	padding:0px;
+	margin:0px;
+	background-color:#A8B6FF;
+	overflow-y: scroll; 
+overflow-x: hidden; 
+}
+
+.stranica{
+	height:100vh;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.gornjideo{
+	background:linear-gradient(#959DF5, #A39DF5,#A39DF5,#959DF5);
+	height:60px;
+	width: 100%;
+	box-sizing: border-box;	
+}
+
+#logo1{
+	height:58px;
+	width:58px;
+}
+#logo2{	
+
+	margin:-50px 10px 400px 10px;
+	height:48px;
+	width:48px;
+}
+
+#meni{
+	
+	border:0px solid #A8B6FF;
+	height:34px;
+	background:#959DF5;
+	
+}
+
+#navigacija{
+	
+	border: 0px solid #AB00FF;
+	flex-grow:1;
+	text-align:center;
+	height:58pt;
+	border:1px solid black;
+}
+
+#glavnimeni{
+	display:flex;
+	height: 33px;	
+	float:center;
+	width:100%;
+	
+}
+
+#glavnimeni a{
+	border:1px solid #A8B6FF;
+	flex-grow:1;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	padding: 0px 0px -10px 0px;
+	color:white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:calibri;
+	height:32px;
+	margin:0px 0px 0px 0px;
+	justify-content: space-between;
+	
+}
+
+#glavnimeni a:hover{
+	background:linear-gradient(#959DF5,#959DF5,#959DF5,#A39DF5,#A39DF5,#959DF5,#959DF5,#959DF5);
+	color:white;
+	height:24pt;
+	width:150px;
+	
+}
+
+.nazivstr{
+	
+	border:0px solid black;
+	width:100px;
+	height:55px;
+	text-align:center;
+	float: center;
+	margin:auto;
+	
+}
+
+h1{
+
+	margin:0px 0px 0px 0px;
+	font-size:40px;
+	color:white;
+}
+
+.nazivstr p{
+	margin:-10px 0px 0px 0px;
+	color:white;
+	
+}
+
+
+
+
+.izgled{
+	margin-top:40px;
+	font-family:calibri;
+}
+
+
+.zanimlj img{
+	width:200px;
+	height:200px;
+	margin-top: 0px;
+}
+
+.zanimlj{
+	color:white;
+	background-color:#959DF5;
+	border:0px solid #8B41FF;
+	float: left;
+	width:650px;
+	margin: 0px 10px 10px 10px;
+	border-radius:10px;
+	font-family:calibri;
+	text-align:justify;
+}
+
+.naslov{
+	text-align:center;
+	border-bottom:1px solid #A8B6FF;
+}
+
+.slika{
+	text-align:center;
+}
+
+.crta{
+	text-align:center;
+	color:#A8B6FF;
+	font-size:16px;
+}
